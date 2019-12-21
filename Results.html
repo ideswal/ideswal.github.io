@@ -317,18 +317,6 @@ $(document).ready(function () {
 <img src="graph4.png" alt="FFigure 4. Treatment Results: Framing" />
 <p class="caption">FFigure 4. Treatment Results: Framing</p>
 </div>
-<p>Initial Analysis</p>
-<pre class="r"><code>CountLies &lt;- c(&quot;Total&quot;, &quot;CH&quot;, &quot;CD&quot;, &quot;UH&quot;, &quot;UD&quot;, &quot;DH&quot;, &quot;DD&quot;)
-TotalDiff &lt;- c(807,126,188,91,176,96,130)
-PreIntervention &lt;- c(402,62,95,51,85,46,63)
-PostIntervention &lt;-c (402,62,95,51,85,46,63)
-PrePostDifference &lt;- c(3,2, -2, -11, 6, 4, 4)
-data1 &lt;- data.frame(CountLies, TotalDiff,PreIntervention,PostIntervention,PrePostDifference)
-View(data1)
-
-ggplot(data=data1, aes(x=CountLies,y=TotalDiff ))+ geom_line()+ labs (x= &quot;Number of Lies per treatment&quot;, y= &quot;Total Difference&quot;)</code></pre>
-<pre><code>## geom_path: Each group consists of only one observation. Do you need to adjust the group aesthetic?</code></pre>
-<p><img src="Results_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 
 
 

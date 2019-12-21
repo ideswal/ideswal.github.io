@@ -11,7 +11,7 @@ navbar:
     - text: "Experiment"
       href: exp.html
     - text: "Results"
-      href: Results.html
+      href: result.html
     - text: "Conclusion"
       href: conclusion.html
     - text: "References"
