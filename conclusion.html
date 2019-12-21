@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Discussion and Conclusion</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">What's Trending?: Effectiveness of Social Norm Interventions</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Introduction</a>
+</li>
+<li>
+  <a href="about.html">Literature Review</a>
+</li>
+<li>
+  <a href="exp.html">Experiment</a>
+</li>
+<li>
+  <a href="Results.html">Results</a>
+</li>
+<li>
+  <a href="conclusion.html">Conclusion</a>
+</li>
+<li>
+  <a href="references.html">References</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Discussion and Conclusion</h1>
+
+</div>
+
+
+<p>In recent years, there has been a growing interest in how norm-nudges, such as leveraging the trend effect, can be used to elicit socially desirable behavior. Our research seeks to contribute to the existing social norm literature by attempting to answer whether, and to what extent, upward and downward trending information about social norms influences behavior. The study’s main prediction was that social norm interventions showing trends in University of Pennsylvania student’s academic integrity would be more effective at changing behavior than interventions using similar information but with static framing. A second prediction of our study was that interventions with an upward trend should be more effective than interventions with a downward trend.</p>
+<p>We presented participants with the intervention’s statements at the midway point during a 20-round dice game, in which participants were incentivized to lie about the numbers they roll, in order to win more tickets for a gift card. However, the results of our study indicate that neither of our hypotheses were supported by the data, which suggests that our trending norm interventions did not affect players’ behavior during the experiment.</p>
+<p>One possible explanation for this study’s null results could be that the interventions were ineffective due to players’ perceptions that their game play was being observed by the experimenters. Researchers for the current study had the ability to observe each participant’s response for each round of the game when the game was completed; however, players were given no indication that this would be the case. Despite lacking direct knowledge that their rounds were being monitored, approximately 70% of the participants in our study believed their game play was being monitored, and this subjective perception may have acted as a deterrent for players to act in a dishonest manner. Participants’ perceptions of whether their responses were private or not may have contributed to the study’s high levels of honesty even after the interventions because participants were afraid of possible consequences of being caught in a lie (Kajackaite &amp; Gneezy, 2017). Prior research (Dimant et al., 2019) has revealed that if there is a risk for being exposed as a “cheater”, participants will curb lying behavior even when informed of others’ behavior. Although our analysis showed no significant differences between players who perceived they were being watched vs. players who did not, we can’t rule out the possibility lying behavior was suppressed due to player fears of being exposed as a cheater.</p>
+<p>A second explanation for the lack of a trend effect relays back to the conditions necessary for a trend to be perceived. That is, people need to be made aware of two data points (Hohle &amp; Teigen, 2015) over time in order to recognize that a trend is actually occurring. Our experiment failed to provide these data points and therefore might not have fulfilled the necessary benchmark for meeting a trend effect. Future studies could utilize two or more data points to better ensure that the trend effect is salient.</p>
+<p>A third potential cause for the null effects of our study could be related to the intervention statements and the social network those statements were referencing. Recent research indicates that the salience of the norm intervention is critical (Zhao, Dong, &amp; Yu, 2019). While the majority of the participants in this study were recruited on the University of Pennsylvania campus, the study was not solely limited to students. This may have weakened the effect of our norm interventions, which referenced the academic integrity of University of Pennsylvania students. The intervention statements used in our study may have been lacking in social proximity for study participants who were not students at the University of Pennsylvania, and thus the intervention statements were not salient enough to induce conformity to the social norm. Since conformity to norms is reinforced by the threat of social disapproval and punishment (Bicchieri, 2017), it is a possibility that non-students simply did not care about the social norms they were presented with during the dice game. Unfortunately, the authors of the current study have no way of determining if non-student participants had any influence on the results of the study because this demographic data was not asked in the survey. Future explorations of this topic could tailor interventions to ensure relevance to the subject pool, potentially by utilizing statements about the dice game itself rather than referring to broader cheating behaviors.</p>
+<p>An extension to further explore the effect of trending norms could include asking participants a series of questions pertaining to their cultural background. Different cultural backgrounds could influence whether and by how much people play honestly or dishonestly in the dice game, and how they receive and react to trending social norm information. Previous research (Gachter &amp; Schulz, 2016) shows that cultural characteristics, such as individualistic or collectivistic, might also strongly influence individuals’ decision to cheat due to differences in the perceived scope of moral responsibilities and interestingly that there was a positive correlation between honesty and prevalence of rule violations at the country-level. Finally, a limitation of our analysis was the relatively small number of participants who only lied some of the time. 78% of participants were honest in their reports for every roll and 9% lied at every opportunity, leaving only 13% of participants who lied occasionally and were likely to be open to the influence of normative data. Further studies should increase sample size accordingly, increase the incentives to lie, and consider eliciting further information from the participants, such as whether they were aware that they could cheat, in the post-game survey.</p>
+<p>Although we were unable to find statistically significant results, we believe that the influence of trending norms requires further exploration. Our study was limited in scope and statistical power, and future research could offer new insights which may hold significant implications for policymakers and behavioral scientists alike.</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

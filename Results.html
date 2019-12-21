@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Results</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">What's Trending?: Effectiveness of Social Norm Interventions</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Introduction</a>
+</li>
+<li>
+  <a href="about.html">Literature Review</a>
+</li>
+<li>
+  <a href="exp.html">Experiment</a>
+</li>
+<li>
+  <a href="Results.html">Results</a>
+</li>
+<li>
+  <a href="conclusion.html">Conclusion</a>
+</li>
+<li>
+  <a href="references.html">References</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Results</h1>
+
+</div>
+
+
+<p>Most of the existing literature using this iteration of the ‘mind game’ paradigm relies on utilizing the difference between the expected number of matches per period (given a baseline probability of 16.7% of a match) and the number of matches actually reported by the participant to estimate the degree of dishonesty within or between treatments — a measure we have chosen to call the ‘estimated dishonesty percentage’ (Jiang, 2013). Instead, our experimental design allowed for total accuracy in the calculation of dishonest behavior by logging the actual result of each individual roll in all twenty rounds of the experiment through the Qualtrics platform. This offered an opportunity to measure and utilize a participant’s ‘true’ dishonesty percentage as the dependent variable examined throughout our study. We’ve defined the true dishonesty percentage as the ratio of observed dishonest decisions (‘lies’) compared to the total number of opportunities to be dishonest in either period (or both). For example, if a participant rolled three 6’s and seven non-6’s in one ten-round period, they had seven total dishonest opportunities. If they reported a total of five matches (rolls that resulted in a 6) throughout the period, they have therefore lied in two of their seven opportunities meaning their true dishonesty is 2/7 or 28.6%. This should theoretically control for any potential variance in our data due to the number of 6’s each subject happens to roll (though we later confirm this through our regression framework as well). The differences between the estimated and true dishonesty percentages for each individual treatment and across all observations are shown below (Figure 1). Notably, we find our mean true dishonesty percentage (14.3%) to be significantly higher than our mean estimated dishonesty percentage (11.5%) when looked at across all 205 observations (p=0.00). <img src="graph1.png" alt="Figure 1. Comparison between estimated and true dishonesty percentages" /> Our results were then analyzed according to the methodologies described in our pre-registration, using true dishonesty as our dependent variable, finding strong evidence for a null result across all analyses. We first evaluated differences within each arm of the experiment by calculating each subject’s true dishonesty percentage both before and after our intervention, treating each period as a single observation ( Figure 2). Using a basic Wilcoxon Signed Rank Test to conduct pairwise mean comparisons between periods for each, we consistently find no significant differences resulting from any of our individual treatment interventions, with our lowest p-value being 0.180 (DownwardHonest). Though underpowered, this null result is consistent with the findings of Dimant et al who similarly failed to find significant differences in average reporting behavior across a range of norm interventions (Dimant et al. 2019). <img src="graph2.png" alt="Figure 2. Mean true dishonesty percentages within all treatment arms, before and after intervention." /></p>
+<p>We next turned to our between treatment analysis, seeking to find evidence for our first hypothesis by utilizing our 3x2 design to compare the effect of static versus trending normative interventions. Again using a Wilcoxon Signed Rank Test to conduct pairwise mean comparisons between periods for each, we consistently find no significant differences resulting from any of our individual treatment interventions, with our lowest p-value being 0.176 (Upward Trending). This null result offers no support for our first hypothesis, with both trending interventions failing to make a significant difference on participant behavior (Figure 3).</p>
+<div class="figure">
+<img src="graph3.png" alt="Figure 3. Treatment Results: Trending vs Static Interventions" />
+<p class="caption">Figure 3. Treatment Results: Trending vs Static Interventions</p>
+</div>
+<p>We repeated this analysis to test our second hypothesis, comparing the pooled results of our interventions for both the ‘Honest’ and ‘Dishonest’ treatment pairs. Again, we found no significant results indicating a change in behavior following either set of interventions with our lowest p-value being .285 (Honest Framing). This fails to support our hypothesis that social norm interventions with an upward trend would have more impact than downward trends.</p>
+<div class="figure">
+<img src="graph4.png" alt="FFigure 4. Treatment Results: Framing" />
+<p class="caption">FFigure 4. Treatment Results: Framing</p>
+</div>
+<p>Initial Analysis</p>
+<pre class="r"><code>CountLies &lt;- c(&quot;Total&quot;, &quot;CH&quot;, &quot;CD&quot;, &quot;UH&quot;, &quot;UD&quot;, &quot;DH&quot;, &quot;DD&quot;)
+TotalDiff &lt;- c(807,126,188,91,176,96,130)
+PreIntervention &lt;- c(402,62,95,51,85,46,63)
+PostIntervention &lt;-c (402,62,95,51,85,46,63)
+PrePostDifference &lt;- c(3,2, -2, -11, 6, 4, 4)
+data1 &lt;- data.frame(CountLies, TotalDiff,PreIntervention,PostIntervention,PrePostDifference)
+View(data1)
+
+ggplot(data=data1, aes(x=CountLies,y=TotalDiff ))+ geom_line()+ labs (x= &quot;Number of Lies per treatment&quot;, y= &quot;Total Difference&quot;)</code></pre>
+<pre><code>## geom_path: Each group consists of only one observation. Do you need to adjust the group aesthetic?</code></pre>
+<p><img src="Results_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

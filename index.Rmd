@@ -1,0 +1,9 @@
+---
+output: html_document
+---
+![](~/Desktop/SEM 1/BDS-522/Website_template/intro.png)
+---
+Introduction
+---
+
+A review of the available literature shows that communicating descriptive trending norms induces more conformity to social norms that simply describing the popularity of a social norm alone (Mortensen, et al., 2019); however, the prior research focused on minority norms and there is a gap in the research when it comes to examining the effects trending norms using a variety of directions and behaviors that may be emotionally valenced, such as honesty and cheating. One of the primary aims of the proposed research will be to determine if the directionality of trending norm information has a unique effect on conforming to the perceived trend. A secondary goal will be to examine if conformity to the norm is moderated by whether the trend is perceived as a prosocial (honest) or deviant (dishonest) behavior.

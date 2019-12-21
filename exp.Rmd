@@ -1,0 +1,17 @@
+---
+title: "Hypothesis and Experimental Design"
+output: html_document
+---
+Our assumption is that the mechanism provided by the psychological momentum theory (PMT) (Markman & Guenther, 2007) lays the foundation needed for participants to conceptualize the provided trending information and behave in the direction of that trend. Due to this psychological momentum, we expect the direction of the trend will have more of an effect on behavior than the content or framing of the information. Furthermore, as demonstrated in the literature of trending norms (Mortensen, et al, 2019), we hypothesize that providing trending norm information will have a larger effect on behavior than static norm information. 
+
+H1:Social norm interventions with trending data are more effective in changing behavior than those with a similar but static framing.
+H2: Social norm interventions with an upward trend are more effective in changing behavior than interventions with a downward trend.
+
+
+Experiment Setup 
+![Experiment Setup](~/Desktop/SEM 1/BDS-522/Website_template/Setup.png)
+
+The experiment was devised using 3 x 2 design with 4 treatment arms and 2 control arms. The control arms provided informational statements about percentages of students who were academically honest or dishonest. The treatment arms provided informational statements about the upwards (increasing) or downwards (decreasing) percentages of students who were academically honest or dishonest. These informational statements were provided between the tenth and eleventh round of the die games. Explicitly, the control and treatment arms measured the effects of: ControlDishonesty, where the provided normative information did not contain a trend and framed the information in terms of dishonesty; ControlHonesty, where the provided normative information did not contain a trend and framed the information in terms of honesty; DownwardDishonesty, where the provided normative information contained a downward trend and was framed in terms of dishonesty; UpwardDishonesty, where the provided normative information contained an upward trend and was framed in terms of dishonesty; UpwardHonesty, where the provided normative information contained an upward trend and was framed in terms of honesty; and DownwardHonesty, where the provided normative information contained a downward trend and was framed in terms of honesty (table below).
+
+![Norm Statements](~/Desktop/SEM 1/BDS-522/Website_template/statements.png)
+

@@ -1,0 +1,35 @@
+---
+title: "References"
+output: html_document
+---
+
+1. Abeler, J., Nosenzo, D., Raymond, C. (2019). Preferences for Truth‐Telling. Econometrica, Journal of the Econometric Society.
+2. Alekseev, A., Charness, G., and Gneezy, U. (2017). Experimental methods: When and why contextual instructions are important. Journal of Economic Behavior & Organization, 134:48–59
+3. Andreoni, J. (1995). Warm-glow versus cold-prickle: the effects of positive and negative framing on cooperation in experiments. The Quarterly Journal of Economics, 110(1):1–21.
+4. Ariely, D. (2012). The Honest Truth About Dishonesty, Harper Collins, NY 
+5. Bicchieri, C. (2006). The grammar of society: The nature and dynamics of social norms. 		Cambridge University Press.
+6. Bicchieri, C. (2017). Norms in the Wild: How to Diagnose, Measure, and Change Social Norms. Oxford University Press				
+7. Bicchieri, C., & Dimant, E. (n.d.). Nudging with care: The risks and benefits of social information. Public Choice, Forthcoming.
+8. Bicchieri, C., Dimant, E., Sonderegger, S (2019). It’s Not a Lie If you Believe It: On Norms, Lying, and Self-Serving Belief Distortion. SSRN
+9. Carrell, S.E., Malmstrom, F.V., West, J.E. (2008). Peer Effects in Academic Cheating. 		Journal of Human Resources Vol 43, pp 173-207
+10. Cialdini, R. B., Reno, R. R., & Kallgren, C. A. (1990). A focus theory of normative conduct: Recycling the concept of norms to reduce littering in public places. Journal of Personality and Social Psychology, 58(6), 1015-1026
+11. Dimant, E., van Kleef, G.A., Shalvi, S. (2019). Requiem for a Nudge: Framing Effects in 			Nudging Honesty. Available at SSRN: http://dx.doi.org/10.2139/ssrn.3416399
+12. Dimant, E. (2019). Contagion of pro-and anti-social behavior among peers and the role of social 		proximity. Journal of Economic Psychology
+13. Engler, J. N., Landau, J. D., & Epstein, M. (2008). Keeping Up With the Joneses: Students Perceptions of Academically Dishonest Behavior. Teaching of Psychology, 35(2), 99–102.
+14. Erlandsson, A., Hohle, S. M., Løhre, E., & Västfjäll, D. (2018). The rise and fall of scary 	numbers: The effect of perceived trends on future estimates, severity ratings, and help‐	allocations in a cancer context. Journal of Applied Social Psychology, 48(11), 618-633
+14. Fischbacher, U. and Follmi-Heusi, F. (2008). Lies in disguise: An experimental study on 			cheating. Journal of the European Economic Association, 11(3):525–547.
+15. Gächter, S., & Schulz, J. F. (2016). Intrinsic honesty and the prevalence of rule violations across societies. Nature, 531(7595), 496.
+16. Gino, F., Hauser, O. P., and Norton, M. I. (2019). Budging beliefs, nudging behaviour. Mind & 		Society, pages 1–12.
+17. Hohle, S. M., & Teigen, K. H. (2015). Forecasting forecasts: The trend effect. Judgment and Decision Making, 10(5), 416-428
+18. Jiang, T., (2013). Cheating in mind games: The subtlety of rules matters. Journal of Economic Behavior & Organization, Volume 93: 328-336
+19. Kahneman, D. (2003). A perspective on judgment and choice: mapping bounded rationality. 		American psychologist, 58(9):697
+20. Levin, I. P., Schneider, S. L., and Gaeth, G. J. (1998). All frames are not created equal: A 			typology and critical analysis of framing effects. Organizational behavior and human decision processes, 76(2):149–188
+21. Markman, K. D., & Guenther, C. L. (2007). Psychological Momentum: Intuitive Physics and Naive Beliefs. Personality and Social Psychology Bulletin, 33(6), 800–812
+22. Mortensen, C. R., Neel, R., Cialdini, R. B., Jaeger, C. M., Jacobson, R. P., & Ringel, M. M. (2019). Trending norms: A lever for encouraging behaviors performed by the minority. Social Psychological and Personality Science, 10(2), 201-21
+23. Neighbors, Larimer, & Lewis, (2004). Targeting misperceptions of descriptive drinking norms: efficacy of a computer-delivered personalized normative feedback intervention. Journal of Clinical Psychology 72(3):434-47.
+24. Office of Student Conduct, FY 2019 Annual Disciplinary Report. (n.d.). Retrieved December 15, 2019, from https://www.osc.upenn.edu/file/63/download?token=EgPpbUSi.
+25. Rauhut, H. (2013). Beliefs about Lying and Spreading of Dishonesty: Undetected Lies and Their Constructive and Destructive Social Dynamics in Dice Experiments. PLoS ONE 8(11): e77878
+26. Sparkman, G., Walton, G.M. (2017). Dynamic Norms Promote Sustainable Behavior, Even if It Is Counter normative. Department of Psychology, Stanford University
+27. Tarrant M, Khan SS, Qin Q. (2018) Effects of norm referent salience on young people's dietary orientation. Appetite, 85:160-4.
+28. White, K. M., Smith, J. R., Terry, D. J., Greenslade, J. H., & Mckimmie, B. M. (2009). Social 		influence in the theory of planned behaviour: The role of descriptive, injunctive, and in-group norms. British Journal of Social Psychology, 48(1), 135–158.
+29. Zhao, J., Dong, Z., Yu, R. (2019). Don't remind me: When explicit and implicit moral reminders enhance dishonesty. Journal of Experimental Social Psychology, Vol 85
